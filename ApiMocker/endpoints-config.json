@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Url": "/test",
+    "ResponseCode": 201,
+    "ResponseContentType": "application/json",
+    "ResponseHeaders": {
+      "X-Header-Test": ["test1", "test2"]
+    },
+    "ResponsePath": "response-test.json"
+  },
+  {
+    "Url": "/test/text",
+    "ResponseCode": 201,
+    "ResponseContentType": "text/plain",
+    "ResponseHeaders": {
+      "X-Header-Test": ["test1", "test2"]
+    },
+    "ResponsePath": "test.txt"
+  },
+  {
+    "Url": "/test/45/zip",
+    "ResponseCode": 200,
+    "ResponseContentType": "application/zip",
+    "ResponseHeaders": {
+      "X-Header-Test": ["test1", "test2"]
+    },
+    "ResponsePath": "raichu.zip"
+  },
+  {
+    "Url": "/test/image",
+    "ResponseCode": 200,
+    "ResponseContentType": "image/jpeg",
+    "ResponseHeaders": {
+      "X-Header-Test": ["test1", "test2"]
+    },
+    "ResponsePath": "raichu.jpg"
+  },
+  {
+    "Url": "/test/test204",
+    "ResponseCode": 204,
+    "ResponseHeaders": {
+      "X-Header-Test": ["test1"]
+    }
+  },
+  {
+    "Url": "/test/montest",
+    "ResponseCode": 403
+  }
+]
